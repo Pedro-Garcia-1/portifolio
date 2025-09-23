@@ -1,0 +1,401 @@
+
+/*  cabeçalho   */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FBF5DD;
+    margin: 0;
+}
+.header-container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px #DDA853 solid;
+    background-color: #4a6c96;
+    background: url(images/fundo1.3.jpg);
+
+}
+.card{
+    height: 138px;
+    flex: 1;
+}
+.first-header{
+    flex: 0.12;
+}
+.second-header{
+    flex: 1;
+    align-items: flex-start;
+    padding-left: 10px;
+    align-content: center;
+}
+
+.header-img{
+    width: 76px;
+    height: 132px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.text-header{
+    font-family: "Libre Baskerville", serif;
+    color: #DDA853;
+    padding-left: 5px;
+    font-size: 30pt;
+    width: fit-content;
+}
+.third-header{
+    flex: 1;
+    align-content: center;
+    padding-top: 5px;
+}
+.end-text-1
+{
+    height: 50px;
+    width: 56px;
+}
+
+div.button-head.card{
+    
+     flex-grow: 1;
+
+}
+.container-links{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.card1{
+    flex: 0 0 auto;
+    height: 100%;
+    align-content: center;
+  
+    
+}
+.separator{
+    flex: 0.1;
+}
+.link-separator{
+    font-size: 30pt;
+    position: relative;
+    left: 50%;
+    padding-bottom: 5px;
+    color: #DDA853;
+}
+.spacing-last-cell-button-head{
+    padding-right: 15px;
+}
+
+.link-page-browsing{
+    font-size: 12pt;
+    font-family: "Libre Baskerville", serif;
+}
+
+.link-page-browsing:link{
+    text-decoration: none;
+    color: #DDA853;
+
+}
+a.link-page-browsing:visited{
+    text-decoration: none;
+    color: #DDA853;
+}
+
+
+/*    SOBRE MIM      */
+
+.container-about-me{
+    
+    background: linear-gradient(135deg, #FBF5DD, #FFF);
+    border: 2px solid #DDA853;
+    border-radius: 16px;
+    margin-top: 20px;
+    position: relative;
+    left: 0.64%;
+    max-width: 98.5%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+}
+
+
+.pages-title{
+  font-family: "Libertinus Sans", sans-serif;
+  color: #223C73; /* azul real */
+  font-size: 25pt;
+  
+
+}
+
+.text-styling{
+    display: flex;
+    position: relative;
+    left: 1%;
+}
+.card2{
+    flex: 1;
+}
+.link-separator-1{
+    font-size: 30pt;
+    position: relative;
+    bottom: 4px;
+    color: #DDA853;
+}
+
+.image-title-about{
+    height: 48px;                 /*   width original: 53px para height 46px       */
+    width: 55px;
+    margin-top: 18px;
+}
+div.card2.titulo{
+    flex: 0.09;
+}
+
+.text-about-me-paragraphs{
+    font-size: 14pt;
+    font-family: "Libre Baskerville", serif;
+    color: #223C73;
+}
+.flexbox-about-me{
+    display: flex;
+}
+.text-about-me{
+    margin-left: 1%;
+}
+.card3{
+    flex: 1;
+}
+
+div.card2.titulo.flex2{
+    flex: 0.12;
+}
+div.card3.text-about-me.text-projects{
+    display: flex;
+    flex-direction: column;
+}
+.card4{
+    flex: 1;
+    width: 100%;
+    border-bottom: solid 3px #DDA853;
+}
+
+.text-projects{
+    color: #223C73;
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+.photo-pong{
+    width: 272px;
+    height: 207px;
+    border: solid 3px #DDA853;
+    position: relative;
+    left: 5%;
+    margin-bottom: 2%;
+}
+
+div.card4.no-border{
+    border: 0;
+}
+div.silhueta.card3{
+    display: flex;
+    flex-direction: column;
+}
+
+div.projects-silhueta-card{
+    flex: 1;
+}
+.photo-lp{
+    width: 272px;
+    height: 150px;
+    border: solid 3px #DDA853;
+    position: relative;
+    left: 5%;
+    margin-bottom: 2%;
+}
+.bald-suit{
+    width: 300px;
+    height: 100%;
+}
+
+div.card4.no-border{
+    border: 0;
+}
+
+
+
+
+/*Fontes*/
+.libertinus-sans-regular {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libertinus-sans-bold {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libertinus-sans-regular-italic {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+.dosis-<uniquifier> {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/*Para celular*/
+/* =======================
+   RESPONSIVIDADE MOBILE
+   ======================= */
+
+/* Telas menores que 768px (tablets e celulares grandes) */
+@media (max-width: 768px) {
+
+  /* Cabeçalho reorganizado em coluna */
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .first-header,
+  .second-header,
+  .third-header {
+    flex: unset;
+    width: 100%;
+    height: auto;
+  }
+
+  .header-img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .text-header {
+    font-size: 20pt;
+    padding: 10px 0;
+    position: relative;
+    left: 18%;
+  }
+
+  .container-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .link-separator {
+    display: none; /* tira o "|" que polui em telas pequenas */
+  }
+
+  .link-page-browsing {
+    font-size: 14pt;
+    padding: 5px 10px;
+  }
+
+  /* Seção "Sobre mim" */
+  .text-styling {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  div.card2.titulo {
+    flex: unset;
+  }
+
+  .pages-title {
+    font-size: 20pt;
+  }
+
+  .image-title-about {
+    margin-top: 10px;
+  }
+
+  .flexbox-about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-about-me {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .text-about-me-paragraphs {
+    font-size: 12pt;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .silhueta img {
+    width: 70%;
+    height: auto;
+    margin: 15px auto;
+    display: block;
+  }
+}
+
+/* Telas muito pequenas (até 480px, celulares menores) */
+@media (max-width: 480px) {
+  .text-header {
+    font-size: 18pt;
+  }
+
+  .link-page-browsing {
+    font-size: 12pt;
+  }
+
+  .pages-title {
+    font-size: 18pt;
+  }
+
+  .text-about-me-paragraphs {
+    font-size: 11pt;
+  }
+  .silhueta-remover{
+    width: 0;
+    height: 0;
+  }
+}
